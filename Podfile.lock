@@ -1,0 +1,30 @@
+PODS:
+  - AVOSCloud (11.6.2.102):
+    - PromiseKit (~> 6.8.4)
+  - PromiseKit (6.8.4):
+    - PromiseKit/CorePromise (= 6.8.4)
+    - PromiseKit/Foundation (= 6.8.4)
+    - PromiseKit/UIKit (= 6.8.4)
+  - PromiseKit/CorePromise (6.8.4)
+  - PromiseKit/Foundation (6.8.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.4):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - AVOSCloud (= 11.6.2.102)
+  - PromiseKit (~> 6.8.4)
+
+SPEC REPOS:
+  "git@github.com:hustlzp/Specs.git":
+    - AVOSCloud
+  https://github.com/cocoapods/specs.git:
+    - PromiseKit
+
+SPEC CHECKSUMS:
+  AVOSCloud: 36701253b3a9ea33e90ded8762ef5ecd8742956a
+  PromiseKit: 51794a832647e7b819336dc2279039ce9f1cc49b
+
+PODFILE CHECKSUM: f67dfee8dd746d27224993ea095203305d41b764
+
+COCOAPODS: 1.6.1

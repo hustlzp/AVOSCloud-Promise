@@ -10,7 +10,7 @@ import AVOSCloud
 import PromiseKit
 
 extension AVCloud {
-    class func callFunction(_: PMKNamespacer, name: String, parameters: [String: Any]?) -> Promise<Any?> {
+    public class func callFunction(_: PMKNamespacer, name: String, parameters: [String: Any]?) -> Promise<Any?> {
         return Promise {
             callFunction(inBackground: name, withParameters: parameters, block: $0.resolve)
         }

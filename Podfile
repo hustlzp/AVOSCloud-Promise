@@ -6,6 +6,6 @@ platform :ios, '10.0'
 
 
 target 'AVOSCloud-Promise-iOS' do
-    pod 'AVOSCloud', '11.6.2.102'
+    pod 'AVOSCloud', '11.6.2.100'
     pod 'PromiseKit', '~> 6.8.4'
 end

@@ -16,7 +16,7 @@ extension AVCloud {
         }
     }
     
-    class func rpcFunction<T>(_: PMKNamespacer, name: String, cachePolicy: AVCachePolicy, maxCacheAge: TimeInterval,b parameters: [String: Any?]?) -> Promise<T> {
+    public class func rpcFunction<T>(_: PMKNamespacer, name: String, cachePolicy: AVCachePolicy, maxCacheAge: TimeInterval,b parameters: [String: Any?]?) -> Promise<T> {
         return Promise { resolver in
             rpcFunction(inBackground: name, withParameters: parameters, cachePolicy: cachePolicy, maxCacheAge: maxCacheAge, block: { (result, fromCache, error) in
                 guard error == nil else {

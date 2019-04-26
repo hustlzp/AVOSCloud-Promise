@@ -10,6 +10,7 @@
 		055A2EE52272BED400F0C607 /* AVOSCloud+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055A2EE42272BED400F0C607 /* AVOSCloud+Promise.swift */; };
 		055A2EE72272CB4300F0C607 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 055A2EE62272CB4200F0C607 /* Info.plist */; };
 		055A2EE92272CBE800F0C607 /* AVOSCloud-Promise.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 055A2EE82272CBE800F0C607 /* AVOSCloud-Promise.podspec */; };
+		055A2EEB2272CFDC00F0C607 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 055A2EEA2272CFDC00F0C607 /* README.md */; };
 		2C9C0CE7E785DFA6B00C5D9A /* libPods-AVOSCloud-Promise-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 706DF119E94564C2C312B809 /* libPods-AVOSCloud-Promise-iOS.a */; };
 /* End PBXBuildFile section */
 
@@ -18,6 +19,7 @@
 		055A2EE42272BED400F0C607 /* AVOSCloud+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVOSCloud+Promise.swift"; sourceTree = "<group>"; };
 		055A2EE62272CB4200F0C607 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		055A2EE82272CBE800F0C607 /* AVOSCloud-Promise.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AVOSCloud-Promise.podspec"; sourceTree = "<group>"; };
+		055A2EEA2272CFDC00F0C607 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		15479C30312E021B1672B6D3 /* Pods-AVOSCloud-Promise-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVOSCloud-Promise-iOS.release.xcconfig"; path = "Target Support Files/Pods-AVOSCloud-Promise-iOS/Pods-AVOSCloud-Promise-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		706DF119E94564C2C312B809 /* libPods-AVOSCloud-Promise-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AVOSCloud-Promise-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C744E937EFBC424F8D803170 /* Pods-AVOSCloud-Promise-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVOSCloud-Promise-iOS.debug.xcconfig"; path = "Target Support Files/Pods-AVOSCloud-Promise-iOS/Pods-AVOSCloud-Promise-iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 				1785C9D7F50A3677ADD0C608 /* Pods */,
 				794D9BED16D4C397160B3937 /* Frameworks */,
 				055A2EE82272CBE800F0C607 /* AVOSCloud-Promise.podspec */,
+				055A2EEA2272CFDC00F0C607 /* README.md */,
 				055A2EE62272CB4200F0C607 /* Info.plist */,
 			);
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				055A2EEB2272CFDC00F0C607 /* README.md in Resources */,
 				055A2EE72272CB4300F0C607 /* Info.plist in Resources */,
 				055A2EE92272CBE800F0C607 /* AVOSCloud-Promise.podspec in Resources */,
 			);

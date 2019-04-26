@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'AVOSCloud-Promise/Classes/**/*'
+  s.source_files = 'AVOSCloud-Promise/Sources/**/*'
   
   # s.resource_bundles = {
   #   'AVOSCloud-Promise' => ['AVOSCloud-Promise/Assets/*.png']
